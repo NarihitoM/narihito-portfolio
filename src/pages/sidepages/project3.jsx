@@ -48,7 +48,7 @@ const Project3 = () => {
                         exit={{ opacity: 0, y: -30, scale: 0.5 }}
                         transition={{ duration: 1, ease: "easeOut" }}
                         onClick={() => navigate("/projects/pj4")}
-                        className="h-10 w-full  backdrop-blur-2xl p-2 rounded-lg bg-blue-600 text-white hover:bg-gray-800 hover:text-white active:translate-y-1">Next Project</motion.button>
+                        className="h-10 w-full  backdrop-blur-2xl p-2 rounded-lg bg-blue-600 text-white hover:bg-gray-800 hover:text-white active:translate-y-1">Next</motion.button>
                 </div>
             </div>
 
