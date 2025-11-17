@@ -119,7 +119,7 @@ const Renderpage = ({ children }) => {
                         </div>
 
                     </div>
-                    <div className="flex flex-col gap-1.5 justify-center items-center md:hidden">
+                    <div className="flex flex-col gap-1.5 justify-center items-start md:hidden">
                         <div className="flex flex-row gap-2">
                             <a href="https://github.com/NarihitoM"><i className="fa-brands fa-github text-white text-3xl max-md:text-xl"></i>     </a>
                             <a href="https://www.youtube.com/@notnarihito2902"><i className="fa-brands fa-youtube text-white text-3xl max-md:text-xl"></i></a>

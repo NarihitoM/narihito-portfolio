@@ -30,14 +30,14 @@ const Mainpage = () => {
                             animate={{ opacity: 1, y: 0, scale: 1 }}
                             exit={{ opacity: 0, y: -30, scale: 0.5 }}
                             transition={{ duration: 1, ease: "easeOut" }}
-                            className="text-4xl text-white ">Narihito's <span className="text-blue-600 ">Here.</span>
+                            className="text-4xl text-white ">Wel<span className="text-blue-600 ">come!</span>
                         </motion.h1>
                         <motion.h1
                             initial={{ opacity: 0, y: 30, scale: 0.5 }}
                             animate={{ opacity: 1, y: 0, scale: 1 }}
                             exit={{ opacity: 0, y: -30, scale: 0.5 }}
                             transition={{ duration: 1, ease: "easeOut" }}
-                            className="text-3xl text-white">Welcome To <span className="text-blue-600 ">My Portfolio!</span>
+                            className="text-3xl text-white">Narihito's <span className="text-blue-600 ">Here.</span>
                         </motion.h1>
                        
                         <div className="flex flex-row justify-center gap-3">
