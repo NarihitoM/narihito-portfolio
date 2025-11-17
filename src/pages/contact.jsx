@@ -120,7 +120,7 @@ const Contact = () => {
             </motion.div>
             {submitsuccess &&
                 <div className="fixed top-0 left-0 p-5 rounded-lg bg-white shadow-[0_0_10px_0_blue,0_0_20px_0_blue]" >
-                    <h1 className="text-green-600 font-bold">Sent Successfully! I will reply as soon as possible.</h1>
+                    <h1 className="text-green-600 font-bold">Sent Successfully!</h1>
                 </div>}
         </>
     )
