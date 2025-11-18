@@ -22,7 +22,7 @@ const Project4 = () =>
                         animate={{ opacity: 1, x: 0 }}
                         exit={{ opacity: 0, y: -30, scale: 0.5 }}
                         transition={{ duration: 1, ease: "easeOut" }}
-                        onClick={() => navigate("/projects/pj1")}
+                        onClick={() => navigate("/projects/pj3")}
                         className="h-10 w-full  backdrop-blur-2xl p-2 rounded-lg bg-white/25 text-white hover:bg-gray-800 hover:text-white active:translate-y-1">Prev</motion.button>
                 
                     </div></div>
