@@ -103,7 +103,7 @@ const Contact = () => {
                 transition={{ duration: 1, ease: "easeOut" }}
                 className="mt-20 flex justify-center items-center">
                 <form onSubmit={onSubmit} ref={writing} className={`p-20 max-md:p-5 bg-white/25 rounded-lg flex flex-col gap-3 hover:transition-all transition-all hover:shadow-[0_0_10px_0_blue,0_0_20px_0_blue] ${bool ? "shadow-[0_0_10px_0_blue,0_0_20px_0_blue]" : ""}`}>
-                    <h1 className="text-center text-4xl max-md:text-3xl text-white  font-extrabold"><span className="text-blue-600">Get</span> In Touch</h1>
+                    <h1 className="text-center text-4xl max-md:text-2xl text-white  font-extrabold"><span className="text-blue-600">Get</span> In Touch</h1>
                     <div className="flex flex-col gap-5">
                         <input onClick={(e) => { if (e.key === 'Enter') onSubmit(); }} type="text" placeholder="Name" value={username} onChange={(e) => setusername(e.target.value)} className="px-4 py-2  placeholder-blue-600 placeholder:font-semibold bg-white rounded-2xl" />
                         <input onClick={(e) => { if (e.key === 'Enter') onSubmit(); }} type="text" placeholder="Email" value={email} onChange={(e) => setemail(e.target.value)} className="px-4 py-2 placeholder-blue-600 bg-white rounded-2xl placeholder:font-semibold" />

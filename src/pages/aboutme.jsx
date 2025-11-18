@@ -53,7 +53,7 @@ const Aboutme = () => {
                         initial={{ opacity: 0, y: 20 }}
                         animate={{ opacity: 1, y: 0 }}
                         transition={{ duration: 1, ease: "easeOut", delay: 0.3 }}
-                        className="text-white text-4xl max-md:text-3xl font-semibold">Also known as{" "}<br/>
+                        className="text-white text-4xl max-md:text-3xl font-semibold">Also known as{" "}<br />
                         <span className="text-blue-600 font-bold max-md:flex max-md:justify-center max-md:items-center">
                             <Typewriter
                                 words={["Narihito.", "Rico."]}
@@ -69,11 +69,12 @@ const Aboutme = () => {
                         initial={{ opacity: 0, y: 20 }}
                         animate={{ opacity: 1, y: 0 }}
                         transition={{ duration: 1, ease: "easeOut", delay: 0.3 }}
-                        className="text-white">
+                        className="text-white max-md:text-center">
                         I'm currently studying computer science at<br />
-                        <a href="https://www.uit.edu.mm" className="text-blue-600">University Of Information Technology.</a><br>
-                        </br>
+                        <a href="https://www.uit.edu.mm" className="text-blue-600">University Of Information Technology.</a><br />
+
                         <span className="flex max-md:justify-center max-md:items-center">I'm Passionate Young Developer.</span>
+                        I turn 20 this year and Hope you get along with me.
                     </motion.p>
                     <div className="flex flex-row gap-3">
                         <motion.div
