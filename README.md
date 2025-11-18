@@ -1,3 +1,2 @@
-#Created With Vite + React
-#Naihito Portfolio Project
+#Created with vite + React
 
